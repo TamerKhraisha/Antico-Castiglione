@@ -10,6 +10,10 @@
   max-height:70%;
 }
 
+body {
+background-color:red;
+}
+
 .main
 h3 {
 	font-family:Cookie ,Georgia, Serif;
