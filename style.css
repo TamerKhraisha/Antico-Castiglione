@@ -1,7 +1,7 @@
 
 @media all and (max-device-width: 700px){
     body {
-        background-color: grey;
+        background-color: white;
     }
 	
     .MainTitle {
@@ -9,7 +9,7 @@
 }	
 .MainTitle p {
 	font-size:1.5em;
-	color:yellow;
+	color:darkred;
 }
 }
 
