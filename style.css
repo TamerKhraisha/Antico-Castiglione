@@ -1,7 +1,7 @@
 
-@media all and (max-device-width: 801px){
+@media all and (max-device-width: 700px){
     body {
-        background-color: grey;
+        background-color: yellow;
     }
 }
 
