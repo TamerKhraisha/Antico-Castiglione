@@ -1,7 +1,9 @@
 
-body {
-        background-color:red;
+@media screen and (max-width: 801px) {
+    body {
+        background-color: green;
     }
+}
 
 
 
