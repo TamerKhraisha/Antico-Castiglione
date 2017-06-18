@@ -1,4 +1,12 @@
 
+@media screen and (max-width: 801px) {
+    body {
+        background-color: grey;
+    }
+}
+
+
+
 #container2 {
     -moz-column-count:2;
     -webkit-column-count:2;
