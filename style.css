@@ -1,5 +1,5 @@
 
-@media screen and (max-device-width: 801px) (max-width: 801px){
+@media screen and (max-device-width: 801px) and (max-width: 801px){
     body {
         background-color: green;
     }
