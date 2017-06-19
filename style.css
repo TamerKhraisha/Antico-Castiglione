@@ -1,17 +1,4 @@
 
-@media all and (max-device-width: 700px){
-    body {
-        background-color: white;
-    }
-	
-    .MainTitle {
-	text-align:center;
-}	
-.MainTitle p {
-	font-size:1.5em;
-	color:darkred;
-}
-}
 
 
 
