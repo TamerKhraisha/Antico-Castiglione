@@ -4,7 +4,6 @@
 @media all and (max-device-width: 700px){
     body {
         background-color: white;
-	    text-align:center;
     }
 	
 .MainTitle {
@@ -13,7 +12,9 @@
 	margin-top:-2em;
 	margin:auto;
 }
-
+.MainPage{
+	text-align:center;
+	}
 }
 
 .ShopName {
