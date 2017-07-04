@@ -1,6 +1,21 @@
 
 
 
+@media all and (max-device-width: 700px){
+    body {
+        background-color: white;
+    }
+	
+.MainTitle {
+	text-align:center;
+	font-size:5vw;
+	margin-top:-2em;
+}
+.MainTitle p {
+	font-size:1.5em;
+	color:darkred;
+}
+}
 
 .ShopName {
 	text-align:center;
