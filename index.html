@@ -1,38 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Antico Castiglione - Antichità e Restauro di Mobili Antichi a Bologna</title>
+<title>Antico Castiglione - Antiquariato e Restauro di Mobili Antichi a Bologna</title>
 <link rel="stylesheet" type="text/css" href="style.css" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
-<script src="themes/1/js-image-slider.js" type="text/javascript"></script>
-<link href="generic.css" rel="stylesheet" type="text/css" />
+
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-<!-- <link rel="stylesheet" media="screen and (max-device-width: 800px)" type="text/css" href="style2.css" /> -->
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
 
 </head>
 
 <body >
-<!-- The following script imports the font family Cookie from google fonts -->
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
- <script>
-    WebFont.load({
-      google: {
-        families: ["Cookie:regular"]
-      }
-    });
-</script>
-
 
 <div>
-<center><img src="wallpaper1.jpg"  style="width:600px;height:150px;margin-top:70px"></center>
-</div>
-
-<div class="MainTitle">
-<p> Antichità e Restauro di Mobili Antichi a Bologna </p>
-</div>
-
+<p class="ShopName"> Antico Castiglione </p>
+<p class="MainTitle"> Antiquariato e Restauro di Mobili Antichi a Bologna </p>
 <div>
+
 <header class="navigation">
   <nav>
 	<ul>
@@ -47,31 +32,102 @@
 </div>
 
 <hr style="width:80%">
+
+
+<br />
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 9</div>
+  <img src="Foto/foto6.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 9</div>
+  <img src="Foto/foto2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 9</div>
+  <img src="Foto/foto3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 9</div>
+  <img src="Foto/foto4.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 9</div>
+  <img src="Foto/foto5.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+
+
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 9</div>
+  <img src="Foto/foto9.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+<br />
+<br />
+
+<div class='ChiSiamo'>
+<h3 id='ChiSiamoHead'>Chi Siamo</h3>
+	<p>Antico Castiglione è un laboratorio di restauro e vendita di mobili antichi ed oggetti d'antiquariato situato in Via Castiglione n. 93 a Bologna. Da oltre 15 anni la nostra attività si è rivolta sia al restauro, alla conservazione di mobili antichi, arredi lignei,dipinti su tela e tavola, ceramiche e oggettistica di tutte le epoche, sia alla valutazione certificata, la vendita e l'acquisto di opere antiche.L'esperienza maturata in questi anni ha consolidato il rapporto con i nostri clienti, soprattutto per quanto riguarda la corretta conservazione dei loro beni. Un'opera di antiquariato è unica e insostituibile ed il suo corretto ripristino e mantenimento rappresentano la finalità del nostro lavoro.</p>
 <br >
-	
-<div id="sliderFrame">
-	<div id="slider">
-
-		<img src="images/image-slider-1.jpg" alt="Oggetti Antichi" />
-		<img src="images/image-slider-2.jpg" alt="Arredamento con Diversi Stili" />
-		<img src="images/image-slider-3.jpg" alt="Ceramica" />
-		<img src="images/image-slider-4.jpg" alt="Vendita e Restauro Mobili" />
-		<img src="images/image-slider-5.jpg" alt="Valutazioni" />
-		<img src="images/image-slider-6.jpg" alt="Impagliatura e Tappezzeria" />
-		<img src="images/image-slider-8.jpg" alt="Quadri e Dipinti" />
-
-   </div>
-	<div id="htmlcaption" style="display: none;"></div>
 </div>
 
 
-
-<br />
-<br />
-
-<div><h3 id="ChiSiamo">Chi Siamo</h3></div>
-<div><p style="text-align:center;margin: 10px 80px 50px 80px;">Antico Castiglione è un laboratorio di restauro e vendita di mobili antichi ed oggetti d'antiquariato situato in Via Castiglione n. 93 a aBologna. Da oltre 15 anni la nostra attività si è rivolta sia al restauro, alla conservazione di mobili antichi, arredi lignei,dipinti su tela e tavola, ceramiche e oggettistica di tutte le epoche, sia alla valutazione certificata, la vendita e l'acquisto di opere antiche.L'esperienza maturata in questi anni ha consolidato il rapporto con i nostri clienti, soprattutto per quanto riguarda la corretta conservazione dei loro beni. Un'opera di antiquariato è unica e insostituibile ed il suo corretto ripristino e mantenimento rappresentano la finalità del nostro lavoro.</p>
-</div>
 
 <br />
 
