@@ -78,9 +78,9 @@ header p {
  
 
 .navigation{
-	 display: flex;
+	 display:inline-block;
 	 justify-content: center;
-	 width:1200px;
+	 width:2vw;
 }
 	
 .navigation nav {
