@@ -15,6 +15,13 @@
 .MainPage{
 	text-align:center;
 	}
+	
+.navigation{
+	 display:inline-block;
+	 justify-content: center;
+	 width:0.5vw;
+}	
+	
 }
 
 .ShopName {
