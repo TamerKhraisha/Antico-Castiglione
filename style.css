@@ -109,7 +109,7 @@ header p {
   display: flex;
   justify-content: center;
   background-color: inherent;
-  width:400px;
+  width:80vw;
 }
 
 ul {
