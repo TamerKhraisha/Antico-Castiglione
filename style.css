@@ -1,4 +1,6 @@
-
+* {
+	overflow:hidden;
+}
 
 
 @media all and (max-device-width: 700px){
