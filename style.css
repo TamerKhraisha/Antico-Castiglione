@@ -9,8 +9,7 @@
 	.MainTitle {
 		font-size:1.5vw;
 		margin-top:-2em;
-		margin-right:auto;
-		margin-left:auto;
+		text-align:center;
 	}
 	.ShopName {
 		text-align:center;
@@ -22,7 +21,11 @@
 		text-align:center;
 		}
 
-
+	.ChiSiamo{
+		background-color:#F5F5F5;
+    		margin-right: auto;
+    		margin-left: auto;
+}
 }
 
 .ShopName {
