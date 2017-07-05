@@ -100,21 +100,20 @@ header p {
  
 
 .navigation{
-	 display:flex;
+	 display:inline-block;
 	 justify-content: center;
 	 width:2vw;
 }
 	
 .navigation nav {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   background-color: inherent;
   width:1200px;
-  overflow:hidden;
 }
 
 ul {
-  display: flex;
+  display:flex;
   flex-flow: row wrap;
   list-style-type: none;
   margin: 0;
@@ -129,7 +128,7 @@ ul li{
 }
 
 li a {
-  display: block;
+  display: flex;
   color: grey;
   text-align: center;
   font-family:"Great Vibes",cursive; ;
