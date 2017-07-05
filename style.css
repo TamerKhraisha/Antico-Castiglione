@@ -2,31 +2,54 @@
 
 
 @media all and (max-device-width: 700px){
-    body {
-        background-color: white;
-    }
-	
-.MainTitle {
-	font-size:1.5vw;
-	margin-top:-2em;
-	margin-right:auto;
-	margin-left:auto;
-}
-.ShopName {
-	text-align:center;
-	font-size:12vw;
-	color: yellow; 
-	font-family: "Great Vibes",cursive; 
-}
-.MainPage{
-	text-align:center;
+	    body {
+		background-color: white;
+	    }
+
+	.MainTitle {
+		font-size:1.5vw;
+		margin-top:-2em;
+		margin-right:auto;
+		margin-left:auto;
 	}
-	
-.navigation{
-	 display:inline-block;
-	 justify-content: center;
-	 width:0.5vw;
-}	
+	.ShopName {
+		text-align:center;
+		font-size:12vw;
+		color: yellow; 
+		font-family: "Great Vibes",cursive; 
+	}
+	.MainPage{
+		text-align:center;
+		}
+
+	.navigation{
+		 display:inline-block;
+		 justify-content: center;
+		 width:0.5vw;
+	}	
+		nav {
+	    position: relative;
+	    margin: auto;
+	    padding: 0;
+	    list-style: none;
+	    width: 100%;
+	    text-align: center;/*add text align-center*/
+	}
+	nav ul li {
+	    display: inline-block;/*replace inline to inline-block*/
+	}
+	nav ul li a {
+	    display: inline-block;
+	    text-decoration: none;
+	    padding: 5px 0;
+	    width: 100px;
+	    background: #Cc3399;
+	    color: #eee;
+	    float: left;
+	    text-align: center;
+	    border-left: 1px solid #fff;
+	}
+
 	
 }
 
