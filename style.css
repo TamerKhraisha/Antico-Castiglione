@@ -100,7 +100,7 @@ header p {
  
 
 .navigation{
-	 display:inline-block;
+	 display:flex;
 	 justify-content: center;
 	 width:2vw;
 }
