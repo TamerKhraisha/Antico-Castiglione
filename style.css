@@ -112,7 +112,7 @@ header p {
 }
 	
 .navigation nav {
-  display: inline-block;
+  display: flex;
   justify-content: center;
   background-color: inherent;
   width:1200px;
@@ -120,6 +120,7 @@ header p {
 
 ul {
   display: flex;
+  text-align:center;	
   flex-flow: row wrap;
   list-style-type: none;
   margin: 0;
