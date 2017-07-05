@@ -99,6 +99,7 @@ header p {
 }
  
 
+
 .navigation{
 	 display:inline-block;
 	 justify-content: center;
@@ -114,11 +115,10 @@ header p {
 
 ul {
   display: flex;
-  text-align:center;	
   flex-flow: row wrap;
   list-style-type: none;
   margin: 0;
-  padding: 1.5vw;
+  padding: 0;
   overflow: hidden;
   border-radius: 5px;
 }
@@ -132,11 +132,22 @@ li a {
   display: block;
   color: grey;
   text-align: center;
-  font-family:"Great Vibes",cursive; 
+  font-family:"Great Vibes",cursive; ;
   font-size:4vw;
-  padding: 0;
+  padding: 20px;
   text-decoration: none;
   border-bottom: transparent solid 1px;
+}
+
+
+
+li a:hover {
+  	color: #cc0000;
+	background:none;
+	transition:all 1s;
+	border-bottom: #cc0000 solid 1px;
+	opacity:0.9;
+	filter:alpha (opacity=90)
 }
 
 
