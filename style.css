@@ -12,6 +12,12 @@
 	margin-right:auto;
 	margin-left:auto;
 }
+.ShopName {
+	text-align:center;
+	font-size:12vw;
+	color: yellow; 
+	font-family: "Great Vibes",cursive; 
+}
 .MainPage{
 	text-align:center;
 	}
