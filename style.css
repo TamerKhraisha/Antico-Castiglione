@@ -106,7 +106,7 @@ header p {
 }
 	
 .navigation nav {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   background-color: inherent;
   width:1200px;
