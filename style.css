@@ -129,7 +129,7 @@ ul li{
 }
 
 li a {
-  display: block;
+  display: flex;
   color: grey;
   text-align: center;
   font-family:"Great Vibes",cursive; ;
