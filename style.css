@@ -110,6 +110,7 @@ header p {
   justify-content: center;
   background-color: inherent;
   width:1200px;
+  overflow:hidden;
 }
 
 ul {
