@@ -173,6 +173,7 @@ li a:hover {
   max-width: 55vw;
   position: relative;
   margin: auto;
+  overflow:hidden;
 }
 
 /* Caption text */
