@@ -132,7 +132,7 @@ li a:hover {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 55vw;
+  max-width: 60vw;
   position: relative;
   margin: auto;
   overflow:hidden;
