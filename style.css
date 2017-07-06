@@ -221,12 +221,13 @@ li a:hover {
 	color: #7a7c7f; 
 	font-size: 1.7vw; 
 	font-family: "Libre Baskerville", serif; 
-	line-height: 45px; 
+	line-height: 3wv; 
 	text-align: center; 
 	text-shadow: 0 1px 1px #fff;
 	padding-top: 20px; 
+	margin-left: 10%;
+    	margin-top:-1em;
 	}
-	
 
 
 
