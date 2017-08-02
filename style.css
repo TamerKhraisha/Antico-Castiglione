@@ -1,19 +1,26 @@
 
 
 
-@media all and (max-device-width: 700px){
-
-
+@media screen and (max-width: 480px){
 	
-.nav2 a{
-    display:inline-block;
-    color: red;
-    font-family:"Great Vibes",cursive; 
-    font-size:2em;
-    padding: 20px;
-     text-decoration: none;
+div.tab button {
+    display: block;
+    background-color: #ccc;
+    color: #d54d7b;
+    font-family:"Open Sans Condensed",cursive; 
+    padding: 22px 16px;
+    width: 28vw;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 4vw;
+    line-height: 5vw; 
 
 }
+	
+	}
 
 }
 
@@ -239,13 +246,13 @@ div.tab button {
     color: #d54d7b;
     font-family:"Open Sans Condensed",cursive; 
     padding: 22px 16px;
-    width: 28vw;
+    width: 23vw;
     border: none;
     outline: none;
     text-align: center;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 4vw;
+    font-size: 2vw;
     line-height: 5vw; 
 
 }
