@@ -1,7 +1,7 @@
 
 
 
-@media screen and (max-width: 480px){
+@media only screen and (max-device-width : 480px) {
 	
 div.tab button {
     display: block;
