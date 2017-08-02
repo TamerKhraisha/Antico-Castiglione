@@ -1,42 +1,42 @@
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
-div.tab button {
-    display: block;
-    background-color: #ccc;
-    color: #d54d7b;
-    font-family:"Open Sans Condensed",cursive; 
-    padding: 22px 16px;
-    width: 28vw;
-    border: none;
-    outline: none;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 4vw;
-    line-height: 5vw; 
-
-}
-
-.tabcontent h3 {
-	font-size: 6vw;
-}
 	
-.tabcontent p {
-	font-size: 2vw; 
-}	
-.nav2 a{
-    font-size:6vw;
-}	
+	div.tab button {
+	    display: block;
+	    background-color: #ccc;
+	    color: #d54d7b;
+	    font-family:"Open Sans Condensed",cursive; 
+	    padding: 22px 16px;
+	    width: 28vw;
+	    border: none;
+	    outline: none;
+	    text-align: center;
+	    cursor: pointer;
+	    transition: 0.3s;
+	    font-size: 4vw;
+	    line-height: 5vw; 
+	}
+
+	.tabcontent h3 {
+		font-size: 6vw;
+	}
 	
-    }
-.ShopName {
-
-	font-size:11vw;
-
-}	
-.MainTitle {
-	font-size:3.5vw;
+	.tabcontent p {
+		font-size: 2vw; 
+	}	
+	
+	.nav2 a {
+	    font-size:6vw;
+	}	
+	
+	.ShopName {
+		font-size:11vw;
+	}	
+	
+	.MainTitle {
+		font-size:3.5vw;
+	}
 }
-}
+
 .ShopName {
 	text-align:center;
 	font-size:9vw;
