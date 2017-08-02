@@ -213,6 +213,7 @@ div.tab {
     width: 20%;
     height: 200px;
     margin-left:5%;
+    overflow:visible;
 }
 
 /* Style the buttons inside the tab */
@@ -229,7 +230,8 @@ div.tab button {
     cursor: pointer;
     transition: 0.3s;
     font-size: 2vw;
-    line-height: 5vw; 
+    line-height: 5vw;
+	overflow:visible;
 
 }
 
@@ -251,6 +253,7 @@ div.tab button.active {
     background-color:#F5F5F5;
     float:right;
     margin-right:10%;
+	overflow:visible;
 }
 
 .tabcontent img {
